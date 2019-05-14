@@ -25,8 +25,8 @@ Run "make credit" and then "./credit"
 
 ## Tech Stack
 
-C
-CS50 IDE
-Atom
+- C
+- CS50 IDE
+- Atom
 
 ---
