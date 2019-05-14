@@ -1,11 +1,12 @@
 # Credit Card Validation
 
 This is a simple credit card validation with Luhn's Algorithm written in C
+[Pseuodocode](pseuodocode.txt)
 
 ## Task
 
 Create a program that validates the credit card number using Luhns Algorithm
-CS50: https://lab.cs50.io/cs50/labs/2019/x/credit/
+[CS50 2019 - credit](https://lab.cs50.io/cs50/labs/2019/x/credit/)
 
 ## Criteria
 
