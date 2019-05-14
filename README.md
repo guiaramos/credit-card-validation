@@ -23,7 +23,7 @@ Run this command git clone https://github.com/guiaramos/credit-card-validation.g
 Make sure your PC is able to compile C lang
 Run "make credit" and then "./credit"
 
-##Tech Stack
+## Tech Stack
 
 C
 CS50 IDE
