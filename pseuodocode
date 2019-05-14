@@ -1,0 +1,35 @@
+Ask the credit card number to be checked.
+  the get must accept only numbers, not hyphens or alpha.
+
+Create a validation using Luhn's Algorithm.
+  Declare integer for:
+    copy of a number,
+    the sum of the evens,
+    the sum of the odds,
+    current digit,
+    last digit,
+    number of digits,
+  Make a copy of the number.
+  While the copy number is greater than 0 make the loop.
+    get the last digit of the numbers.
+    assign to the last digit.
+    check if the number of the current digit is odd or even.
+      if even, increment the sum of the evens with the digit.
+      else,
+        create an integer to multiply the digit for 2.
+        increment the sum of the odds with the multiplied number separated by digits.
+      decrease the copy number.
+      add the current digit.
+    check if the sum of evens and odds remain 0 to validate.
+
+  Getting the company name
+    create integer first2digits with the current and last digit.
+    if the current digit is equal to 4 and the number of digits is 13 or 15 and valid
+      prompt VISA
+    else if the first2digits is equal to 34 or 37, the length is 15 and valid
+      prompt AMEX
+    else if the first2digits is equal to 51, 52, 53, 54, or 55 and length 16 and valid
+      prompt MASTERCARD
+    else
+     prompt INVALID
+     return 1
